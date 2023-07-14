@@ -27,9 +27,9 @@ password = driver.find_element(By.XPATH, '/html/body/div[2]/div/div/div[1]/div/d
 login = driver.find_element(By.XPATH, '/html/body/div[2]/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]') #Find the login botton
 
 username.clear() #Clear to prevent default characters
-username.send_keys('jerrybin30731') #User name
+username.send_keys('User name') #User name
 password.clear() #Clear to prevent default characters
-password.send_keys('jerrybin30731qwwwuiqpu') #password
+password.send_keys('password') #password
 login.click()
 
 time.sleep(5) #Wait for page to load
